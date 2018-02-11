@@ -1,0 +1,5 @@
+word:
+  list: раму,по шоссе
+
+server:
+  port: 8083

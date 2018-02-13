@@ -1,5 +1,4 @@
 word:
   list: Мама,Шла
-
 server:
   port: 8081

@@ -4,3 +4,5 @@ second:
   word: http://localhost:8082/
 third:
   word: http://localhost:8083/
+server:
+  port: 8080

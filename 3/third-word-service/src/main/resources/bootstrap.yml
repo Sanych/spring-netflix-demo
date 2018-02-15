@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: third-word-service
+  cloud:
+    config:
+      uri: http://localhost:8001

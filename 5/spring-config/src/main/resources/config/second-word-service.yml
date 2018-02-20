@@ -1,0 +1,5 @@
+word:
+  list: мыла,Саша
+
+server:
+  port: 8082

@@ -1,5 +1,6 @@
 package com.azapasnik.sentenceservice.service;
 
+import com.azapasnik.sentenceservice.model.WordDTO;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -7,5 +8,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface FirstWordService {
 
     @GetMapping("/")
-    String getWord();
+    WordDTO getWord();
 }

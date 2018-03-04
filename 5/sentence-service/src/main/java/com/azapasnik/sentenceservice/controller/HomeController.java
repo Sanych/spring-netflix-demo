@@ -21,7 +21,7 @@ public class HomeController {
 
     @GetMapping(value = "/")
     public String getWord() {
-        return firstWordService.getWord() + " " +
+        return firstWordService.getWord().getWord() + " " +
                 makeServiceCall("second-word-service") + " " +
                 makeServiceCall("third-word-service");
     }
